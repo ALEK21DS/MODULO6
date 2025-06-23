@@ -17,7 +17,7 @@ class ImpresoraCentral {
 
   void imprimir (String archivo) {
     if(_conectado) {
-      print('IMPRIMIENDO ARCHIVP ${archivo}');
+      print('IMPRIMIENDO ARCHIVO ${archivo}');
     } else {
       print('La impresora no esta conectada');
     }
