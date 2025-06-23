@@ -25,10 +25,6 @@ void main() {
     ['Huevos duros', 'Encebollado', 'Empanadas'],
     ['HUevos revueltos', 'Hamburguesa', 'Te']
   ];
-  print('5. Menu semanal');
-  for (var menu in menuSemanal) {
-    print(menu);
-  }
 
   print('6.Almuerzo de Martes: \n ${menuSemanal[1][1]}');
 
